@@ -1,0 +1,17 @@
+{
+  "objective": "Rediger une sequence de 5 emails de vente B2B pour un logiciel SaaS de comptabilite.",
+  "criteria": [
+    {"id": "count", "text": "Exactement 5 emails, numerotes 1 a 5."},
+    {"id": "length", "text": "Chaque email fait entre 80 et 150 mots."},
+    {"id": "cta", "text": "Un seul appel a l'action par email."},
+    {"id": "jargon", "text": "Aucun jargon technique non explique."},
+    {"id": "progression", "text": "Progression logique : accroche, probleme, solution, preuve, relance."}
+  ],
+  "producer_model": "claude-sonnet-5-5",
+  "critic_model": "claude-opus-5-5",
+  "max_iterations": 8,
+  "checkpoint_every": 3,
+  "registry_path": "registry.json",
+  "output_path": "deliverable.txt",
+  "check_command": ""
+}
